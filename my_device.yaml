@@ -1,0 +1,30 @@
+esphome:
+  name: code-for-beeper
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: "KlasaI_IoT"
+  password: "Sajgonki2025!"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Code-For-Beeper Fallback Hotspot"
+    password: "zdTIeMYZIXRG"
+
+captive_portal:
+    

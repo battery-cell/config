@@ -1,0 +1,33 @@
+{
+  "storage_version": 1,
+  "name": "code-for-beeper",
+  "friendly_name": null,
+  "comment": null,
+  "esphome_version": "2025.2.2",
+  "src_version": 1,
+  "address": "code-for-beeper.local",
+  "web_port": null,
+  "esp_platform": "ESP32",
+  "build_path": "/home/lemon/config/.esphome/build/code-for-beeper",
+  "firmware_bin_path": "/home/lemon/config/.esphome/build/code-for-beeper/.pioenvs/code-for-beeper/firmware.bin",
+  "loaded_integrations": [
+    "api",
+    "async_tcp",
+    "captive_portal",
+    "esp32",
+    "esphome",
+    "logger",
+    "md5",
+    "mdns",
+    "network",
+    "ota",
+    "preferences",
+    "safe_mode",
+    "socket",
+    "web_server_base",
+    "wifi"
+  ],
+  "no_mdns": false,
+  "framework": "arduino",
+  "core_platform": "esp32"
+}
